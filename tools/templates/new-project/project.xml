@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <meta title="::projectTitle::" package="::projectPackage::" version="1.0.0" company="::projectCompany::"/>
+
+  <app main="Main"/>
+  <window allow-high-dpi="true"/>
+  <window fps="60"/>
+  
+  <source path="src"/>
+
+  <haxelib name="openfl"/>
+  <haxelib name="box2d-hxcpp"/>
+  <haxelib name="flge"/>
+  
+</project>

@@ -1,0 +1,19 @@
+{
+  "name": "flge",
+  "url": "https://github.com/drflamemontgomery/flge",
+  "license": "MIT",
+  "tags": [
+    "openfl"
+  ],
+  "description": "",
+  "version": "1.0.0",
+  "main": "tools.Run",
+  "classPath": "src",
+  "releasenote": "",
+  "contributors": ["drflamemontgomery"],
+  "dependencies": {
+    "hxargs": "",
+    "openfl": "",
+    "box2d-hxcpp": ""
+  }
+}
