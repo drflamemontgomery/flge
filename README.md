@@ -21,7 +21,7 @@ Project Setup
 
 First, make sure to install the library:
 
-    haxelib install flge https://github.com/drflamemontgomery/flge.git
+    haxelib git flge https://github.com/drflamemontgomery/flge.git
 
 Then create a new project
 
