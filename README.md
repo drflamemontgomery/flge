@@ -34,4 +34,4 @@ Afterwards you can build and run it using the OpenFL command line utility
 License
 =======
 
-FLGE is free, open-source software under the (MIT license)[LICENSE.md]
+FLGE is free, open-source software under the [MIT license](LICENSE.md)
