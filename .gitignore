@@ -1,1 +1,4 @@
+bin
+docs
+scripts/xml
 tools/templates/*/bin
