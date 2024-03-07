@@ -1,5 +1,8 @@
 package flge;
 
+/**
+    This Timer is hxd.Timer from HeapsIO
+  **/
 class Timer {
   /**
     The FPS on which "tmod" have values are based on.
@@ -56,7 +59,7 @@ class Timer {
   }
 
   /**
-    Update the timer calculus on each frame. This is automatically called by hxd.App
+    Update the timer calculus on each frame. This is automatically called by flge.UpdateManager
    **/
   public static function update() {
     frameCount++;

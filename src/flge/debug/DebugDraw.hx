@@ -12,9 +12,19 @@ import box2d.common.math.B2Vec2;
 import box2d.dynamics.B2World;
 import box2d.dynamics.B2Fixture;
 
+/**
+    The DebugDraw class provides a default display for rendering
+    box2d shapes
+  **/
 class DebugDraw extends Sprite {
 
   private var __internal : DebugDrawInternal;
+
+  /**
+   * The flags for the box2d `B2Draw` instance
+   *
+   * @see `B2Draw`
+   */
   public var flags(get, set) : Int;
 
   inline function get_flags() {
