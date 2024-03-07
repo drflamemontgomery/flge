@@ -1,17 +1,14 @@
 -xml xml/docs.xml
 -cpp obj/docs
--D display=usage
--D native
--D linux
 -D doc_gen
--D nocffi
---macro include("flge")
 -lib lime
 -lib openfl
 -lib box2d-hxcpp
 -lib flge
+--macro include("flge")
+--macro include("box2d")
 --no-output
 
 --next
 
--cmd haxelib run dox -o ../docs -i xml -in flge --title "API reference" -D source-path "https://github.com/drflamemontgomery/flge/tree/main/src/" -D textColor 0x777777 --toplevel-package flge
+-cmd haxelib run dox -o ../docs -i xml -in flge -in box2d --title "API reference" -D source-path "https://github.com/drflamemontgomery/flge/tree/main/src/" -D textColor 0x777778
