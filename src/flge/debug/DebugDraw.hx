@@ -50,9 +50,17 @@ class DebugDraw extends Sprite {
 
 private class DebugDrawInternal extends B2Draw {
 
+  /**
+   * Pixels Per Meter
+   */
   private var ppm(get, never):Int;
   inline function get_ppm() { return PhysicsManager.PPM; }
   
+  /**
+   * The graphics object to draw onto
+   *
+   * @see [Graphics](https://api.openfl.org/openfl/display/Graphics.html)
+   */
   private var graphics : Graphics;
 
   public function new(graphics:Graphics) {
